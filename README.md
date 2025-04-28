@@ -31,7 +31,7 @@ cd Deep-Learning-Lab
 # Create and activate virtual environment
 uv venv .
 source .venv/bin/activate  # Linux/macOS
-# or .\venv\Scripts\activate  # Windows
+# or . .venv\Scripts\activate  # Windows
 
 # Install locked dependencies from uv.lock
 uv pip install --locked
