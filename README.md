@@ -29,9 +29,9 @@ git clone  https://github.com/timedegree/Deep-Learning-Lab.git
 cd Deep-Learning-Lab
 
 # Create and activate virtual environment
-uv venv .
+uv venv
 source .venv/bin/activate  # Linux/macOS
 # or . .venv\Scripts\activate  # Windows
 
-# Install locked dependencies from uv.lock
+# Install locked dependencies from pyproject.toml
 uv pip install --locked
